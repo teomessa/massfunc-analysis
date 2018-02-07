@@ -1,0 +1,25 @@
+
+# - - - CATALOGUE DATA:
+
+CAT_NAME	output_mass_errmass2.txt
+CAT_DIR		/Users/matteo/Documents/PHD/scripts
+LOGLIN		lin		# either log or lin 
+MASSCUT		5e3		# in lin scale
+
+
+# - - - SIMULATIONS DATA:
+
+# basic info
+DISTRIBUTION	sch		# either sch or pl
+SLOPE		1.92		# positive slope value
+MC_SCH		1e5		# Truncation mass for the SCH case
+NRUNS		100
+
+# technical info
+MMIN		5e3
+MMAX		1e7
+BINSPDF		999		# number of bins for the sch PDF 
+
+
+# - - - KS & AD TEST DATA:
+MASSCUT_KS	5e3		# additional mass cut for the KS and AD tests?
