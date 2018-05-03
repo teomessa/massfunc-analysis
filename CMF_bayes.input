@@ -1,0 +1,27 @@
+
+# - - - CATALOGUE DATA:
+
+CAT_NAME	output_mass_errmass2.txt
+CAT_DIR		/Users/matteo/Documents/PHD/scripts
+LOGLIN		lin		# either log or lin 
+MASSCUT		5e3		# in lin scale
+
+
+# - - - ANALYSIS:
+
+### SCH ANALYSIS
+SCH_FLAG	yes
+SCH_NWALK	50
+SCH_STEPS	600
+SCH_BURNIN	100
+SCH_START_BETA	-2
+SCH_START_MC	1e5
+SCH_START_SIGMA	1e-1
+
+### PL ANALYSIS
+PL_FLAG		yes
+PL_NWALK	50
+PL_STEPS	600
+PL_BURNIN	100
+PL_START_BETA	-2
+PL_START_SIGMA	1e-1
